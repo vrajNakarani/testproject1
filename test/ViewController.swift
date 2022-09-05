@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
    
+    // MARK: - Outlet
     
     @IBOutlet weak var txtEmali: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
@@ -19,11 +20,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblprint: UILabel!
     
     @IBOutlet weak var Submitbutton: UIButton!
+    // MARK: - view life cycle
     override func viewDidLoad()
     {
         super.viewDidLoad()
         resetFrom()
+        lblcount.text = "\(stepperCount.value)"
     }
+    // MARK: - Action Handler
     func resetFrom()
     {
         Submitbutton.isEnabled = false
@@ -173,6 +177,13 @@ class ViewController: UIViewController {
         lblprint.text = txtEmali.text
     }
 
+
+    @IBOutlet weak var lblcount: UILabel!
+    @IBOutlet weak var stepperCount: UIStepper!
+    @IBAction func Stepper(_ sender: UIStepper) {
+        lblcount.text = String(sender.value)
+    }
+    
 }
 
  
