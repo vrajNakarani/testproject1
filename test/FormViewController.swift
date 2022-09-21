@@ -27,17 +27,18 @@ class FormViewController: UIViewController {
         lblPrint.isHidden = true
    }
     // MARK: - Action Handler
+    
     @IBAction func btnSubmit() {
     
         if txtStudentName.text == " "{
             lblErrormassage.text = "please Enter the Detail"
             return
         }
-        if txtStdandar.text == ""{
+        if txtStdandar.text == " "{
             lblErrormassage.text = "please Enter the Detail"
             return
         }
-        if txtDateofBoth.text == ""{
+        if txtDateofBoth.text == " "{
             lblErrormassage.text = "please Enter the Detail"
             return
         }

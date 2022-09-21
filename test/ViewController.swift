@@ -18,9 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var Passworderror: UILabel!
     @IBOutlet weak var PhonNumbererror: UILabel!
     @IBOutlet weak var lblprint: UILabel!
-    
     @IBOutlet weak var Submitbutton: UIButton!
+    
     // MARK: - view life cycle
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()

@@ -7,19 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11ADEA128D04BDA0075486E /* PickerView2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11ADEA028D04BDA0075486E /* PickerView2VC.swift */; };
+		F11B3B0B28CF0D3A00688FF2 /* NavigationControllerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B3B0A28CF0D3A00688FF2 /* NavigationControllerVc.swift */; };
+		F11B3B0E28CF131100688FF2 /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B3B0D28CF131100688FF2 /* SecoundViewController.swift */; };
+		F12ECFF728C9D6D700771820 /* firstviewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12ECFF628C9D6D700771820 /* firstviewVc.swift */; };
+		F12ECFFB28CA0F3F00771820 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F12ECFFA28CA0F3F00771820 /* 1.jpg */; };
+		F1499B3E28CC3CE700E36E26 /* PickerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1499B3D28CC3CE700E36E26 /* PickerViewVC.swift */; };
+		F1590D2B1D89FF2100F170EE /* SegmentControlPrectice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1590D2A1D89FF2100F170EE /* SegmentControlPrectice.swift */; };
 		F15EC52B28C2202200C13827 /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15EC52A28C2202200C13827 /* FormVC.swift */; };
 		F15EC52F28C224EA00C13827 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15EC52E28C224EA00C13827 /* FormViewController.swift */; };
+		F171334728D197010048F403 /* PickerViewPrectice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171334628D197010048F403 /* PickerViewPrectice.swift */; };
+		F171334E28D1DAB60048F403 /* Segment&pickerVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171334D28D1DAB60048F403 /* Segment&pickerVIew.swift */; };
+		F17D07A728D88258008DE3D8 /* currentDatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D07A628D88258008DE3D8 /* currentDatePickerVC.swift */; };
 		F1A7A49628C09E4000BC585D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7A49528C09E4000BC585D /* AppDelegate.swift */; };
 		F1A7A49828C09E4000BC585D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7A49728C09E4000BC585D /* SceneDelegate.swift */; };
 		F1A7A49A28C09E4000BC585D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7A49928C09E4000BC585D /* ViewController.swift */; };
 		F1A7A49D28C09E4000BC585D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A7A49B28C09E4000BC585D /* Main.storyboard */; };
 		F1A7A49F28C09E4300BC585D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A7A49E28C09E4300BC585D /* Assets.xcassets */; };
 		F1A7A4A228C09E4300BC585D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A7A4A028C09E4300BC585D /* LaunchScreen.storyboard */; };
+		F1A9EB8828D3082500DFA49D /* DatePickerAndTextFialdExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9EB8728D3082500DFA49D /* DatePickerAndTextFialdExample.swift */; };
+		F1ECEDEA28D07C40001FF5CC /* twopickerviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECEDE928D07C40001FF5CC /* twopickerviewVC.swift */; };
+		F1F2326528C7224B00C57FE9 /* secoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2326428C7224B00C57FE9 /* secoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F11ADEA028D04BDA0075486E /* PickerView2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView2VC.swift; sourceTree = "<group>"; };
+		F11B3B0A28CF0D3A00688FF2 /* NavigationControllerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerVc.swift; sourceTree = "<group>"; };
+		F11B3B0D28CF131100688FF2 /* SecoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewController.swift; sourceTree = "<group>"; };
+		F12ECFF628C9D6D700771820 /* firstviewVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstviewVc.swift; sourceTree = "<group>"; };
+		F12ECFFA28CA0F3F00771820 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F1499B3D28CC3CE700E36E26 /* PickerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewVC.swift; sourceTree = "<group>"; };
+		F1590D2A1D89FF2100F170EE /* SegmentControlPrectice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlPrectice.swift; sourceTree = "<group>"; };
 		F15EC52A28C2202200C13827 /* FormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
 		F15EC52E28C224EA00C13827 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		F171334628D197010048F403 /* PickerViewPrectice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewPrectice.swift; sourceTree = "<group>"; };
+		F171334D28D1DAB60048F403 /* Segment&pickerVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment&pickerVIew.swift"; sourceTree = "<group>"; };
+		F17D07A628D88258008DE3D8 /* currentDatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentDatePickerVC.swift; sourceTree = "<group>"; };
 		F1A7A49228C09E4000BC585D /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A7A49528C09E4000BC585D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1A7A49728C09E4000BC585D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +51,9 @@
 		F1A7A49E28C09E4300BC585D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A7A4A128C09E4300BC585D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1A7A4A328C09E4300BC585D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A9EB8728D3082500DFA49D /* DatePickerAndTextFialdExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerAndTextFialdExample.swift; sourceTree = "<group>"; };
+		F1ECEDE928D07C40001FF5CC /* twopickerviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twopickerviewVC.swift; sourceTree = "<group>"; };
+		F1F2326428C7224B00C57FE9 /* secoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +67,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12ECFF928CA0EEA00771820 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F12ECFFA28CA0F3F00771820 /* 1.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F1A7A48928C09E4000BC585D = {
 			isa = PBXGroup;
 			children = (
+				F12ECFF628C9D6D700771820 /* firstviewVc.swift */,
+				F1F2326428C7224B00C57FE9 /* secoundViewController.swift */,
 				F1A7A49428C09E4000BC585D /* test */,
 				F1A7A49328C09E4000BC585D /* Products */,
 			);
@@ -60,6 +96,7 @@
 		F1A7A49428C09E4000BC585D /* test */ = {
 			isa = PBXGroup;
 			children = (
+				F12ECFF928CA0EEA00771820 /* Images */,
 				F15EC52A28C2202200C13827 /* FormVC.swift */,
 				F1A7A49528C09E4000BC585D /* AppDelegate.swift */,
 				F1A7A49728C09E4000BC585D /* SceneDelegate.swift */,
@@ -69,6 +106,16 @@
 				F1A7A4A028C09E4300BC585D /* LaunchScreen.storyboard */,
 				F1A7A4A328C09E4300BC585D /* Info.plist */,
 				F15EC52E28C224EA00C13827 /* FormViewController.swift */,
+				F1499B3D28CC3CE700E36E26 /* PickerViewVC.swift */,
+				F11B3B0A28CF0D3A00688FF2 /* NavigationControllerVc.swift */,
+				F11B3B0D28CF131100688FF2 /* SecoundViewController.swift */,
+				F11ADEA028D04BDA0075486E /* PickerView2VC.swift */,
+				F1ECEDE928D07C40001FF5CC /* twopickerviewVC.swift */,
+				F171334628D197010048F403 /* PickerViewPrectice.swift */,
+				F171334D28D1DAB60048F403 /* Segment&pickerVIew.swift */,
+				F1590D2A1D89FF2100F170EE /* SegmentControlPrectice.swift */,
+				F1A9EB8728D3082500DFA49D /* DatePickerAndTextFialdExample.swift */,
+				F17D07A628D88258008DE3D8 /* currentDatePickerVC.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -130,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12ECFFB28CA0F3F00771820 /* 1.jpg in Resources */,
 				F1A7A4A228C09E4300BC585D /* LaunchScreen.storyboard in Resources */,
 				F1A7A49F28C09E4300BC585D /* Assets.xcassets in Resources */,
 				F1A7A49D28C09E4000BC585D /* Main.storyboard in Resources */,
@@ -143,11 +191,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17D07A728D88258008DE3D8 /* currentDatePickerVC.swift in Sources */,
+				F1590D2B1D89FF2100F170EE /* SegmentControlPrectice.swift in Sources */,
+				F1F2326528C7224B00C57FE9 /* secoundViewController.swift in Sources */,
+				F11B3B0B28CF0D3A00688FF2 /* NavigationControllerVc.swift in Sources */,
+				F11B3B0E28CF131100688FF2 /* SecoundViewController.swift in Sources */,
+				F12ECFF728C9D6D700771820 /* firstviewVc.swift in Sources */,
+				F1ECEDEA28D07C40001FF5CC /* twopickerviewVC.swift in Sources */,
 				F15EC52B28C2202200C13827 /* FormVC.swift in Sources */,
 				F1A7A49A28C09E4000BC585D /* ViewController.swift in Sources */,
 				F1A7A49628C09E4000BC585D /* AppDelegate.swift in Sources */,
 				F15EC52F28C224EA00C13827 /* FormViewController.swift in Sources */,
+				F171334728D197010048F403 /* PickerViewPrectice.swift in Sources */,
 				F1A7A49828C09E4000BC585D /* SceneDelegate.swift in Sources */,
+				F11ADEA128D04BDA0075486E /* PickerView2VC.swift in Sources */,
+				F1499B3E28CC3CE700E36E26 /* PickerViewVC.swift in Sources */,
+				F1A9EB8828D3082500DFA49D /* DatePickerAndTextFialdExample.swift in Sources */,
+				F171334E28D1DAB60048F403 /* Segment&pickerVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,6 @@
 		F1A7A4A728C09E4300BC585D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = test/Info.plist;
@@ -310,7 +369,6 @@
 		F1A7A4A828C09E4300BC585D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = test/Info.plist;
