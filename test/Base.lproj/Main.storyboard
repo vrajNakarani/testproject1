@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cuX-HZ-Vir">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ygq-le-o1g">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -626,20 +626,142 @@
             </objects>
             <point key="canvasLocation" x="-2125" y="-3597"/>
         </scene>
-        <!--View Controller-->
+        <!--Ui Teble View Prectice-->
+        <scene sceneID="7er-uo-bIq">
+            <objects>
+                <viewController id="ygq-le-o1g" customClass="uiTebleViewPrectice" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t0u-J7-fpl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Gf-Zq-N4p">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="animal Cell" id="FTn-ML-Kqy">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FTn-ML-Kqy" id="un9-qv-9Hx">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ph8-J4-V16"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="Ph8-J4-V16" firstAttribute="trailing" secondItem="2Gf-Zq-N4p" secondAttribute="trailing" id="DV3-8k-D5S"/>
+                            <constraint firstItem="Ph8-J4-V16" firstAttribute="bottom" secondItem="2Gf-Zq-N4p" secondAttribute="bottom" id="Huv-aw-66T"/>
+                            <constraint firstItem="2Gf-Zq-N4p" firstAttribute="top" secondItem="Ph8-J4-V16" secondAttribute="top" id="h7Y-dw-1lm"/>
+                            <constraint firstItem="2Gf-Zq-N4p" firstAttribute="leading" secondItem="Ph8-J4-V16" secondAttribute="leading" id="kUh-OZ-rJb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animalTabelView" destination="2Gf-Zq-N4p" id="DT8-5X-KA4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWY-We-gcF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3614" y="-11658"/>
+        </scene>
+        <!--Ui View Prectice-->
+        <scene sceneID="uxi-xK-8F5">
+            <objects>
+                <viewController id="n3e-Yc-Nrw" customClass="uiViewPrectice" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qyn-3V-fKr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Psk-50-rSV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1EU-zQ-TR8"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1EU-zQ-TR8" firstAttribute="bottom" secondItem="Psk-50-rSV" secondAttribute="bottom" id="Pie-6x-qCJ"/>
+                            <constraint firstItem="1EU-zQ-TR8" firstAttribute="trailing" secondItem="Psk-50-rSV" secondAttribute="trailing" id="SFO-3R-ltm"/>
+                            <constraint firstItem="Psk-50-rSV" firstAttribute="top" secondItem="qyn-3V-fKr" secondAttribute="top" id="sQE-dp-ACn"/>
+                            <constraint firstItem="Psk-50-rSV" firstAttribute="leading" secondItem="1EU-zQ-TR8" secondAttribute="leading" id="xZs-ko-dni"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myView1" destination="Psk-50-rSV" id="kb9-MP-fr5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2E6-dT-JVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3614" y="-10930"/>
+        </scene>
+        <!--Date Picker Value Assign-->
         <scene sceneID="727-QB-Exc">
             <objects>
-                <viewController id="gzB-sJ-PgU" sceneMemberID="viewController">
+                <viewController id="gzB-sJ-PgU" customClass="datePickerValueAssign" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qge-JS-Kr0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7a-Ux-wiY">
+                                <rect key="frame" x="20" y="78" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YCC-QS-PqI">
+                                <rect key="frame" x="20" y="120" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="o82-l3-Rzb">
+                                <rect key="frame" x="47" y="528" width="320" height="216"/>
+                                <connections>
+                                    <action selector="datePickerviewAction:" destination="gzB-sJ-PgU" eventType="valueChanged" id="lwn-iG-4ic"/>
+                                </connections>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYQ-Bg-eo4">
+                                <rect key="frame" x="20" y="490" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.97254901960784312" blue="0.80392156862745101" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="btnDoneClike:" destination="gzB-sJ-PgU" eventType="touchUpInside" id="XLX-ri-XOG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFy-YF-ezJ">
+                                <rect key="frame" x="321" y="174" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="zSh-J2-LjR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zSh-J2-LjR" firstAttribute="bottom" secondItem="o82-l3-Rzb" secondAttribute="bottom" constant="118" id="bdj-hy-lhR"/>
+                            <constraint firstItem="o82-l3-Rzb" firstAttribute="centerX" secondItem="Qge-JS-Kr0" secondAttribute="centerX" id="lIn-zZ-dzi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnbutton1" destination="NYQ-Bg-eo4" id="Ljk-ea-v3b"/>
+                        <outlet property="datePicker" destination="o82-l3-Rzb" id="NO6-36-gxS"/>
+                        <outlet property="lblDifferentDate" destination="IFy-YF-ezJ" id="git-Hw-aGQ"/>
+                        <outlet property="txtTomorrowDate" destination="X7a-Ux-wiY" id="88a-aV-dB4"/>
+                        <outlet property="txtYesterdayDate" destination="YCC-QS-PqI" id="0Bh-53-eEE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="87B-CM-qJE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3614" y="-10259"/>
+            <point key="canvasLocation" x="-3614.4927536231885" y="-10259.598214285714"/>
         </scene>
         <!--Current Date PickerVC-->
         <scene sceneID="s3z-z0-orI">
@@ -1020,6 +1142,9 @@
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
